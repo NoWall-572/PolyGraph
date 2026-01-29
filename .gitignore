@@ -30,6 +30,11 @@ logs/
 *.pth
 *.ckpt
 
+# Large datasets (exclude raw data, keep processed samples)
+data/raw/
+# Keep processed data for examples (if too large, uncomment below)
+# data/processed/
+
 # Temporary files
 *.tmp
 *.log

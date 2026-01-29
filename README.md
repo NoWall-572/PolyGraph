@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ASTRA: Autonomous System for TRace Analysis
 
 ## Abstract
@@ -221,3 +222,7 @@ For questions and issues, please open an issue on GitHub or contact [your-email]
 - PyTorch Geometric for graph neural network utilities
 - HuggingFace for transformers and PEFT libraries
 
+=======
+# PolyGraph
+PolyGraph, a novel framework for automated failure attribution in multi-agent systems.
+>>>>>>> 5a53c779c620a88274cf7d34ab23c175e4e0db80

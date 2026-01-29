@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and models (too large for git)
+processed_graphs/
+processed_data/
+checkpoints/
+models/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+

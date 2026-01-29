@@ -1,0 +1,60 @@
+{
+  "question": "Calculate the sum of numbers from 1 to 100",
+  "ground_truth": {
+    "mistake_agent": null,
+    "mistake_step": null,
+    "mistake_reason": null
+  },
+  "nodes": {
+    "user": {
+      "id": "user",
+      "type": "Agent",
+      "created_at": 0,
+      "features": {}
+    },
+    "Orchestrator": {
+      "id": "Orchestrator",
+      "type": "Agent",
+      "created_at": 1,
+      "features": {}
+    },
+    "Coder": {
+      "id": "Coder",
+      "type": "Agent",
+      "created_at": 2,
+      "features": {}
+    }
+  },
+  "edges": [
+    {
+      "source": "user",
+      "target": "Orchestrator",
+      "type": "Communicate",
+      "created_at": 0
+    },
+    {
+      "source": "Orchestrator",
+      "target": "Coder",
+      "type": "Communicate",
+      "created_at": 1
+    }
+  ],
+  "history": [
+    {
+      "name": "user",
+      "content": "Calculate the sum of numbers from 1 to 100",
+      "step": 0
+    },
+    {
+      "name": "Orchestrator",
+      "content": "I'll delegate this to the Coder agent.",
+      "step": 1
+    },
+    {
+      "name": "Coder",
+      "content": "I'll write Python code to calculate this.",
+      "step": 2
+    }
+  ]
+}
+
